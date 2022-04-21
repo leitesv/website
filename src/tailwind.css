@@ -1,0 +1,25 @@
+@import url('https://fonts.googleapis.com/css2?family=Work+Sans&display=swap');
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer components {
+    .border-spacing-b-1 {
+      border-spacing: 0 0.5rem;
+    }
+    .z-1000 {
+      z-index: 1000;
+    }
+    .cover {  object-fit: cover;}
+    .wmde-markdown > blockquote table tr, .wmde-markdown > table tr {background-color:transparent !important;}
+
+    ::-moz-selection { /* Code for Firefox */
+      color: white;
+      background: #169c8f;
+    }
+    
+    ::selection {
+      color: white;
+      background: #169c8f;
+    }
+  }
