@@ -1,5 +1,5 @@
 import React, { useEffect, useState } from "react";
-import "./App.css";
+
 import { FaGithub, FaTwitter } from "react-icons/fa";
 import { BsTelegram, BsInfoCircle } from "react-icons/bs";
 import ReactTooltip from "react-tooltip";
